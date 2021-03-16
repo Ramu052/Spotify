@@ -1,0 +1,39 @@
+#SpotifyNavbarBlock{
+    background-color: #000;
+    color: #fff;
+height: 65px;
+width: 100%;
+}
+#spotifyNavbarBlock article{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center ;
+    height: 65px;
+}
+#spotifyNavbarBlock article div{
+    flex-basis: 50%;
+
+}
+.logoBlock svg{
+    fill: #1ed760;
+    width: 106px;
+}
+ nav ul{
+    list-style:none ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+
+}
+nav ul li a{
+color: #1ed760;
+text-decoration: none;
+padding: 26px 16px;
+font-size: 15px;
+text-transform: capitalize;
+font-weight: 700;
+font-family: sans-serif;
+}
+
